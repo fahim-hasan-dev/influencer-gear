@@ -1,0 +1,94 @@
+@media screen and (max-width:768px) {
+    .nav-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .header-banner{
+        flex-direction: column-reverse;
+        height: auto;
+        align-items: center;
+    }
+    .banner-content{
+        text-align: center;
+    }
+    .banner-content h1{
+        font-size: 2.5rem;
+    }
+    .banner-img img{
+        margin: 50px 0;
+    }
+    .banner-content p{
+        margin: 20px auto;
+    }
+    
+}
+
+@media screen and (max-width:576px) {
+    .nav-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .nev-manue ul li img{
+        width: 70%;
+    }
+   
+    .header-banner{
+        flex-direction: column-reverse;
+        height: auto;
+        align-items: center;
+    }
+    .banner-content{
+        text-align: center;
+    }
+    .banner-content h1{
+        font-size: 2rem;
+    }
+    .banner-content p{
+        font-size: 0.8rem;
+        width: 400px;
+        margin: 20px auto;
+    }
+    .banner-content button{
+        font-size: 0.8rem;
+    }
+    .banner-img{
+        background-size: contain;
+    }
+    .banner-img img{
+        margin: 50px 0;
+       
+    }
+    
+
+
+
+}
+
+@media screen and (max-width:400px) {
+    .nev-manue ul {
+        gap: 15px;
+    }
+    .nev-logo h3{
+        font-size: 1.2rem;
+    }
+    .nev-manue ul li {
+        font-size: 0.7rem;
+    }
+    .nev-manue ul li img{
+        width: 65%;
+    }
+    .banner-content h1{
+        font-size: 1.8rem;
+    }
+    .banner-content p{
+        font-size: 0.7rem;
+        width: 300px;
+        margin: 20px auto;
+    }
+    .banner-img img{
+        margin: 50px 0;
+        
+    
+
+
+}
